@@ -1,0 +1,48 @@
+Para un sitio generado estáticamente
+Sucursal para implementar: master o la sucursal que prefiera
+
+Comando de construcción: npm run generate
+Directorio de publicación: dist
+
+.....................................................
+
+Para el sitio generado en modo SPA
+Sucursal para implementar: master o la sucursal que prefiera
+
+Comando de construcción: npm run build
+Directorio de publicación: dist
+
+..................................................
+
+Subir un proyecto a git
+
+1.-Ubicación en el directorio donde esta el proyecto e inicializarlo con:
+git init 
+
+2.-Indicarle que hay que añadirlo a git:
+git add -A 
+
+3.-Comprobar el status 
+git status 
+
+4.-Indicarle a Git que se hara el commit
+git commit -m "nombre de la version"
+
+5.-Indicarle la ruta al repositorio donde se copiaran los archivos
+git remote add origin https://github.com/renan2013/tavo_2
+
+6.-Finalmente hacer el "push"
+git push origin master
+
+
+
+ echo "# apuntes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/renan2013/apuntes.git
+git push -u origin master
+                
+
+..............................................................................
+
