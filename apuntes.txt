@@ -1,4 +1,4 @@
-Para un sitio generado estáticamente
+Para un sitio generado estáticamente...
 Sucursal para implementar: master o la sucursal que prefiera
 
 Comando de construcción: npm run generate
