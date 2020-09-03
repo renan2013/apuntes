@@ -54,6 +54,8 @@ La solución es actualizar la URL del repositorio remoto con el nombre "origen" 
 Puedes hacerlo con este comando:
 
 git remote set-url origin https://github.com/your/repository
+git branch -M master
+git push -u origin master
 
 ............................................................................................
 
