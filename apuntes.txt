@@ -47,5 +47,13 @@ git push -u origin master
 ..............................................................................
 
 
-Nuevo apunte...
+Cuando salga un error a la hora de subir un proyecto a git usar este comando
+
+La solución es actualizar la URL del repositorio remoto con el nombre "origen" a la URL del repositorio remoto que desea agregar, en lugar de intentar crear un nuevo repositorio remoto con ese nombre.
+
+Puedes hacerlo con este comando:
+
+git remote set-url origin https://github.com/your/repository
+
+............................................................................................
 
