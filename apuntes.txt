@@ -59,3 +59,19 @@ git push -u origin master
 
 ............................................................................................
 
+$ git push origin master
+> To https://github.com/USERNAME/REPOSITORY.git
+>  ! [rejected]        master -> master (non-fast-forward)
+> error: failed to push some refs to 'https://github.com/USERNAME/REPOSITORY.git'
+> To prevent you from losing history, non-fast-forward updates were rejected
+> Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+> 'Note about fast-forwards' section of 'git push --help' for details.
+
+Cuando da error al subir el archivo se puede ejecutar este comando
+Prueba este comando git
+
+git push origin master --force
+o corto de force -f
+
+git push origin master -f
+
