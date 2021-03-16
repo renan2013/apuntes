@@ -82,7 +82,7 @@ Como clonar un repositorio de Git a Visual
 1.-Copiar la direccion del repositorio Git "https"
 2.-Clonar el proyecto desde visual, pedira ubicar la carpeta donde guardará el proyecto
 3.-Abrirlo en visual
-4.-Hacer el commit y el push
+4.-Hacer el commit ("nombre" crtl + enter) y sincronizar
 Listo!!
 
 ..........................................................................
