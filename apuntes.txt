@@ -78,6 +78,7 @@ git push origin master -f
 ...........................................................................
 
 Como clonar un repositorio de Git a Visual
+1234
 
 
 
